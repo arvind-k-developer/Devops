@@ -6,10 +6,14 @@
  ************************************************************************/
 public with sharing class Calculator {
     public Calculator() {
-    }
-   
+    } 
     public integer add(integer a, integer b){
-    return a+b;  
-     }      
+        return a+b;
+        //developer 1  
+    } 
+    public integer sub(integer a, integer b){
+        return a-b; 
+        //developer 2 
+    }       
 }
 
